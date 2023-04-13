@@ -1,6 +1,8 @@
 # Name:JUNHYEOK LEE
 # SBUID: 115808111
-
+##################### SCORE ######################
+####### Score:  8/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -54,7 +56,7 @@ def apothem(number_sides, length_side):
    return a
 
 def polygon_area(number_sides, length_side):
-   area = (number_sides * length_side * apothem(number_sides, length_side))/2
+   area = (number_sides * length_side * apothem(number_sides, length_side))/2 # Area of poly returns the wrong answer , check for the logic
    return area
 
 # ---------------------------- Test -------------------------------------
